@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>learning bootstrap v5 with sass</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/fontawsome.css" />
+  <link rel="stylesheet" href="assets\vendors\css\glightbox.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!--START THE NAVBAR SECTION-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="C:\Users\JoO\Desktop\bootstrap-v5\images\joo.png" style="width: 50px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Faq</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <button type="button" class="rounded-pill btn-rounded">
+          +251922420114
+          <span>
+            <i class="fas fa-phone-alt"></i>
+          </span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="intro-section">
+    <div class="container">
+      <div class="row align-items-center text-white">
+        <div class="col-md-6 intros">
+          <h1 class="display-2">
+            <span class="display-2--intro"> Hey!, i'm joo</span>
+            <span class="display-2--discription lh-base">this is a multi-purpose responsive layout created with
+              bootstrap-v5.(here you can place your discription text)</span>
+          </h1>
+          <button type="button" class="rounded-pill btn-rounded">
+            Get in Touch
+            <span>
+              <i class="fas fa-arrow-right"></i>
+            </span>
+          </button>
+        </div>
+        <div class="col-md-6 intros text-end">
+          <div class="video-box">
+            <img src="images\arts\67.jpg" alt="video illustration" class="img-fluid" />
+            <a href="#" class="glightbox">
+              <span>
+                <i class="fas fa-play-circle"></i>
+              </span>
+              <span class="border-animation border-animation--border-1"></span>
+              <span class="border-animation border-animation--border-2"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,96L48,117.3C96,139,192,181,288,176C384,171,480,117,576,85.3C672,53,768,43,864,74.7C960,107,1056,181,1152,213.3C1248,245,1344,235,1392,229.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <!--START COMPANIES SECTION-->
+
+  <section id="campanies" class="campanies">
+    <div class="container">
+      <div class="row text-center">
+        <h4 class="fw-bold lead mb-3">Trusted by campanies like</h4>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
+    <!--START COMPANIES CONTENT-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies_logo-box shadow-sm">
+            <img src="images\campanies\campanies-1.png.jpg" style="width: 100px;" alt="campany 1 logo"
+              class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies_logo-box shadow-sm">
+            <img src="images\campanies\campanies-2.png.jpg" style="width: 100px;" alt="campany 2 logo"
+              class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies_logo-box shadow-sm">
+            <img src="images\campanies\campaines-3.png.jpg" style="width: 100px;" alt="campany 3 logo"
+              class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies_logo-box shadow-sm">
+            <img src="images\campanies\campanies-4.png.jpg" style="width: 100px;" alt="campany 4 logo"
+              class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies_logo-box shadow-sm">
+            <img src="images\campanies\campanies-5.png.jpg" style="width: 100px;" alt="campany 5 logo"
+              class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies_logo-box shadow-sm">
+            <img src="images\campanies\campanies-6.png.jpg" style="width: 100px;" alt="campany 6 logo"
+              class="img-fluid" />
+          </div>
+
+        </div>
+      </div>
+  </section>
+  <!--THE SERVICE SECTION-->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">Our Services</h1>
+        <div class="heading-line mb-1"></div>
+      </div>
+    </div>
+    <!--START THE DISCRIPTION CONTENT-->
+    <div class="container">
+      <div class="row pt-2 pb-2 mt-0 mb-3">
+        <div class="col-md-6 border-right">
+          <div class="bg-white p-3">
+            <h2 class="fw-bold text-capitalize text-center">
+              Our Services From Intial Desgin To Deployment Anywhere Anytime
+            </h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="bg-white p-4 text-start">
+            <p class="fw-light">
+              Web design encompasses many different skills and disciplines in the production and ... structure, and
+              little attention was paid to semantics and web accessibility. ... space to break the text up into
+              paragraphs and also avoid center-aligned text.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--START THE CONTENT FOR THE SERVICES-->
+    <div class="container">
+      <!--Start the markating content-->
+      <div div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-lg-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block fas fa-paper-plane"></div>
+            <h3 class="h3 display-3--title mt-1">Marketing ></h3>
+            <p class="lh lg">
+              Your website is one of the most important aspects of your brand’s online presence and it's important that
+              you design it right. Your website is also the place where you nurture your bottom-of-the-funnel leads to
+              get conversions. So, you can’t afford any website fails that might cause your prospects to bounce off your
+              website.
+
+              Your website should be designed keeping in mind your audience and should ensure that it provides good user
+              experience. There are a lot of other benefits of a good website design for both your business and your
+              audience.
+            </p>
+
+            <button type="button" class="rounded-pill btn-rounded border-primary">
+              Learn More
+              <span>
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-lg-12 col-xs-12 services mt-4 text-end">
+          <div class="services__pic">
+            <img src="images\services\service-1.jpg" alt="marketing illustration" class="img-fluid">
+
+          </div>
+        </div>
+      </div>
+      <!--start the web development content-->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-lg-12 col-xs-12 services mt-4 text-start">
+          <div class="services__content">
+            <img src="images\services\service-2.jpg" alt="Web development illustration" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-lg-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block fas fa-code"></div>
+            <h3 class="h3 display-3--title mt-1">Web Development ></h3>
+            <p class="lh lg">
+              Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an
+              intranet (a private network). Web development can range from developing a simple single static page of
+              plain text to complex web applications, electronic businesses, and social network services.
+            </p>
+
+            <button type="button" class="rounded-pill btn-rounded border-primary">
+              Learn More
+              <span>
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--start the cloud hosting content-->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-lg-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block fas fa-cloud-upload-alt"></div>
+            <h3 class="h3 display-3--title mt-1">Cloud Hosting ></h3>
+            <p class="lh lg">
+              Simply stated, Cloud Hosting is a server and network infrastructure that uses software to divide a single
+              physical server into multiple virtual servers. Often, these devices are referred to as virtual machines,
+              or VMs.
+            </p>
+
+            <button type="button" class="rounded-pill btn-rounded border-primary">
+              Learn More
+              <span>
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-lg-12 col-xs-12 services mt-4 text-end">
+          <div class="services__pic">
+            <img src="images\services\service-3.jpg" alt="cloud hosting illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section-5 the testimonials-->
+  <section id="testimonials" class="testimonials">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,0L48,42.7C96,85,192,171,288,208C384,245,480,235,576,197.3C672,160,768,96,864,101.3C960,107,1056,181,1152,186.7C1248,192,1344,128,1392,96L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="containers">
+      <div class="row text-center text-white">
+        <h1 class="display-3 fw-bold">Testimonials</h1>
+        <hr style="width: 100px; height:3px;" class="mx-auto">
+        <p class="lead pt-1">what our clinet is saying</p>
+      </div>
+      <!--start the carousel content-->
+      <div class="row align-items-center">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!--CAROUSEL ITEM-1-->
+            <div class="carousel-item active">
+              <!--Testimonials card-->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  My new website is everything that I wanted. I’ve already recommended you to another company. What I
+                  loved
+                  about Thrive was the fact that they started with a plan and executed it.
+                  <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                </p>
+              </div>
+              <!--Client picture-->
+              <div class="testimonials__picture">
+                <img src="images\testimonials\client-1.jpg" alt="client-1 picture" class=" rounded-circle img-fluid">
+              </div>
+              <!--Client name and role-->
+              <div class="testimonials__name">
+                <h3>Yohannes Gezahegn</h3>
+                <p class="fw-light">CEO & Founder</p>
+              </div>
+            </div>
+            <!--CAROUSEL ITEM-2-->
+            <div class="carousel-item">
+              <!--Testimonials card-->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  My new website is everything that I wanted. I’ve already recommended you to another company. What I
+                  loved
+                  about Thrive was the fact that they started with a plan and executed it.
+                  <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                </p>
+              </div>
+              <!--Client picture-->
+              <div class="testimonials__picture">
+                <img src="images\testimonials\client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
+              </div>
+              <!--Client name and role-->
+              <div class="testimonials__name">
+                <h3>Yohannes Gezahegn</h3>
+                <p class="fw-light">CEO & Assistance Manager</p>
+              </div>
+            </div>
+            <!--CAROUSEL ITEM-3-->
+            <div class="carousel-item">
+              <!--Testimonials card-->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  My new website is everything that I wanted. I’ve already recommended you to another company. What I
+                  loved
+                  about Thrive was the fact that they started with a plan and executed it.
+                  <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                </p>
+              </div>
+              <!--Client picture-->
+              <div class="testimonials__picture">
+                <img src="images\testimonials\client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
+              </div>
+              <!--Client name and role-->
+              <div class="testimonials__name">
+                <h3>Yohannes Gezahegn</h3>
+                <p class="fw-light">Finance Manager</p>
+              </div>
+            </div>
+            <!--CAROUSEL ITEM-4-->
+            <div class="carousel-item ">
+              <!--Testimonials card-->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  My new website is everything that I wanted. I’ve already recommended you to another company. What I
+                  loved
+                  about Thrive was the fact that they started with a plan and executed it.
+                  <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                </p>
+              </div>
+              <!--Client picture-->
+              <div class="testimonials__picture">
+                <img src="images\testimonials\client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
+              </div>
+              <!--Client name and role-->
+              <div class="testimonials__name">
+                <h3>Eyob Zewdu</h3>
+                <p class="fw-light">Marketing Manager</p>
+              </div>
+            </div>
+            <!--CAROUSEL ITEM-5-->
+            <div class="carousel-item">
+              <!--Testimonials card-->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  My new website is everything that I wanted. I’ve already recommended you to another company. What I
+                  loved
+                  about Thrive was the fact that they started with a plan and executed it.
+                  <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                </p>
+              </div>
+              <!--Client picture-->
+              <div class="testimonials__picture">
+                <img src="images\testimonials\client-5.jpg" alt="client-5 picture" class="rounded-circle img-fluid">
+              </div>
+              <!--Client name and role-->
+              <div class="testimonials__name">
+                <h3>Yohannes Gezahegn</h3>
+                <p class="fw-light">Global Brand Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button"
+              data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+
+            </button>
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button"
+              data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            </button>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#fff" fill-opacity="1"
+            d="M0,0L48,42.7C96,85,192,171,288,208C384,245,480,235,576,197.3C672,160,768,96,864,101.3C960,107,1056,181,1152,186.7C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+          </path>
+        </svg>
+  </section>
+  <!--section-6 the FAQ question-->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-uppercase">faq</h1>
+        <div class="heading-line"></div>
+        <p class="lead">frequently asked questions, get knowledge before hand</p>
+      </div>
+      <!--accordion content-->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="accordion" id="accordionExample">
+            <!--ACCORDION ITEM-1-->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  What are the main features sass?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sass lets you use features that don't exist in CSS yet like variables, nesting, mixins,
+                  inheritance and other nifty goodies that make writing CSS fun again. In plain English, Sass provides
+                  tools for cleaner, more manageable styling, and much needed functionality that is not yet available
+                  with standard CSS.
+                  <code>.accordion-body</code>
+                </div>
+              </div>
+            </div>
+            <!--ACCORDION ITEM-2-->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  what are the main feature of bootstarp-v5?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Bootstrap 5 has officially landed! ... and several months of hard work, we're shipping the first
+                  stable release of our new major version.
+                  ‎New and updated forms · ‎RTL is here! · ‎Overhauled utilities · ‎Improved customizing
+                  <code>.accordion-body</code>,
+                </div>
+              </div>
+            </div>
+            <!--ACCORDION ITEM-3-->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  what are the main feature of font awsome?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop
+                  shadow, and anything that can be done with the power of CSS.
+                  <code>.accordion-body</code>
+                </div>
+              </div>
+            </div>
+            <!--ACCORDION ITEM-4-->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  what are the main feature of web desiging?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  A stellar web design must contain a user-friendly navigation scheme that allows visitors to quickly
+                  find the information needed. Important links must be easy to find and given logical, simple, and
+                  include easy-to-understand labels.
+                  <code>.accordion-body</code>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Start section-7 portfolio-->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row text-center mt-5">
+        <h1 class="display-3 fw-bold text-capitalize">Latest Work</h1>
+        <div class="heading-line"></div>
+        <p class="lead">
+          latest work on web designing
+        </p>
+      </div>
+      <!--Filter Buttons-->
+      <div class="row mt-5 mb-4 g-3 text-center">
+        <div class="col-md-12">
+          <button class="btn btn-outline-primary" type="button">ALL</button>
+          <button class="btn btn-outline-primary" type="button">Websites</button>
+          <button class="btn btn-outline-primary" type="button">Desgin</button>
+          <button class="btn btn-outline-primary" type="button">Mockup</button>
+        </div>
+      </div>
+      <!--start the portfolio items-->
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images\portfolio\portfolio-1.jpeg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name gose here 1</h4>
+                <p>category project 1</p>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images\portfolio\portfolio- 2.jpeg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name gose here 2</h4>
+                <p>catagory project 2</p>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images\portfolio\portfolio-3.jpg"  alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name gose here 3</h4>
+                <p>category project 3</p>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images\portfolio\portfolio-4.jpg"  alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name gose here 4</h4>
+                <p>category project 4</p>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images\portfolio\portfolio-5.jpg"  alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name gose here 5</h4>
+                <p>category project 5</p>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images\portfolio\portfolio-6.jpg"  alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name gose here 6</h4>
+                <p>category project 6</p>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images\portfolio\portfolio-7.jpg"  alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name gose here 7</h4>
+                <p>category project 7</p>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images\portfolio\portfolio-8.jpg"  alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>project name gose here 8</h4>
+              <p>category project 8</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images\portfolio\portfolio-9.jpg"  alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name gose here 9</h4>
+                <p>category project 9</p>
+            </div>
+               </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--START SECTION GET-STARTED-->
+  <section id="contact" class="get-started">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
+        <div class="heading-line"></div>
+        <p class="lh-lg">
+          You can get started by registering below
+        </p>
+      </div>
+      <!--Start the CTA content-->
+      <div class="row text-white">
+        <div class="col-12 col-lg-6 gradient shadow p-3">
+          <div class="cta-info w-100">
+            <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed </h4>
+            <p class="lh-lg">
+              How could we improve your experience with [Company Name]?
+             Do you have anything else to add? Please be 100% honest; we love feedback!
+             Please describe yourself in 1-2 sentences. For example, "I am a 35-year old data analyst who lives in San Mateo, California.”
+             What should we do to ‘WOW’ you?
+            </p>
+            <h3 class="display-3--brief">What will be the next step</h3>
+            <ul class="cta-info__list">
+              <li>we will prepare the proposal</li>
+              <li>we will discuss it togather</li>
+              <li>lets start the discussion.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 bg-white shadow p-3">
+          <div class="form w-100 pb-2">
+            <h4 class="display-3--title mb-5">start your project</h4>
+            <form action="#" class="row">
+              <div class="col-lg-6 col-md-6 mb-3">
+                <input type="text" placeholder="FirstName" id="inputFirstName" class=" shadow form-control form-control-lg"></div>
+                <div class="col-lg-6 col-md-6 mb-3">
+                  <input type="text" placeholder="LastName" id="inputLastName" class=" shadow form-control form-control-lg"></div>
+                  <div class="col-lg-12 mb-3">
+                  <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg"></div>
+                  <div class="col-lg-12 mb-3">
+                   <textarea name="message" placeholder="message" id="message" rows="8" class=" shadow form-control form-control-lg"></textarea>
+                  </div>
+                  <div class="text-center d-grid mt-1">
+                    <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+                      submit
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--start section-9 the footer-->
+
+<footer class="footers">
+  <div class="container">
+<div class="row">
+  <!--content for mobile number-->
+  <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+    <div class="contact-box__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call"  viewBox="0 0 24 24" stroke-width="1"  fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+        <path d="M15 7a2 2 0 0 1 2 2" />
+        <path d="M15 3a6 6 0 0 1 6 6" />
+      </svg>
+    </div>
+    <div class="contact-box__info">
+      <a href="" class="contact-box__info--title">+251922420114</a>
+      <p class="contact-box__info--subtitle">mon-fri 8pm-6pm</p>
+    </div>
+  </div>
+  <!--content for email-->
+  <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+    <div class="contact-box__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-forward"  viewBox="0 0 24 24" stroke-width="1"  fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M12 18h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7.5" />
+        <path d="M3 6l9 6l9 -6" />
+        <path d="M15 18h6" />
+        <path d="M18 15l3 3l-3 3" />
+      </svg>
+    </div>
+    <div class="contact-box__info">
+      <a href="" class="contact-box__info--title">yohannesG59@gmail.com</a>
+      <p class="contact-box__info--subtitle">Outline support</p>
+    </div>
+  </div>
+  <!--content for location-->
+  <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex"> 
+    <div class="contact-box__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2"  viewBox="0 0 24 24" stroke-width="1"  fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <line x1="18" y1="6" x2="18" y2="6.01" />
+        <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+        <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+        <line x1="9" y1="4" x2="9" y2="17" />
+        <line x1="15" y1="15" x2="15" y2="20" />
+      </svg>
+    </div>
+    <div class="contact-box__info text-end">
+      <a href="" class="contact-box__info--title ">Addis Abebea</a>
+      <p class="contact-box__info--subtitle">A.A 1621, ET</p>
+    </div>
+  </div>
+</div>
+  </div>
+  <!--start the social media content-->
+  <div class="footer-sm" style="background-color:#212121">
+<div class="container">
+  <div class="row py-4 text-center text-white">
+    <div class="col-lg-5 col-md-6 mb-4 mb-0">
+      connect with us on social media
+    </div>
+    <div class="col-lg-7 col-md-6">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+  </div>
+<!--start the content for company info-->
+<div class="container">
+  <div class="row text-white justify-content-center mt-3 pb-3">
+    <div class="col-12 col-sm-6 col-lg-6">
+      <h5 class="text-capitalize fw-bold">Campany name</h5>
+      <hr style="width: 60px; height:2px;">
+      <p class="lh-lg">
+       This company main work concerns in web designing in a way to impress our customer and and promoting the we we uesd.
+      </p>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-2 mb-4">
+      <h5 class="text-capitalize fw-bold">Products</h5>
+      <hr style="width: 60px; height:2px;">
+    </div>
+    <div class="col-12 col-sm-6 col-lg-2 mb-4">
+      <h5 class="text-capitalize fw-bold">useful links</h5>
+      <hr style="width: 60px; height:2px;">
+    </div>
+    <div class="col-12 col-sm-6 col-lg-2 mb-4">
+      <h5 class="text-capitalize fw-bold">contact</h5>
+      <hr style="width: 60px; height:2px;">
+    </div>
+  </div>
+</div>
+
+</footer>
+
+  <script type="text/javascript">
+    const lightbox = GLightbox({
+      href: "https://www.youtube.com/watch?v=iJKCj8uAHz8&t=795s",
+      type: "video",
+      source: "youtube", //vimeo, youtube or local
+      width: 900,
+      autoplayvideos: "true",
+    });
+  </script>
+  <script src="assets\vendors\js\glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
